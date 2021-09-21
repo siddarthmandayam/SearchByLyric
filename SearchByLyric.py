@@ -20,8 +20,8 @@ print(song)
 print(artist)
 
 """
-sp = spotipy.Spotify(auth_manager = SpotifyOAuth(client_id = "59a69adac6544298bf4b976c001f0310",
-client_secret = "0557f90b87eb404ebae99e8cd4ac6519"), redirect_uri = "http://localhost:8765/callback", scope = "user-library-read")
+sp = spotipy.Spotify(auth_manager = SpotifyOAuth(client_id = "__________",
+client_secret = "______"), redirect_uri = "http://localhost:8765/callback", scope = "user-library-read")
 
 results = sp.search(q = 'song')
 """
